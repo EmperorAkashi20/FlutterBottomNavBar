@@ -5,6 +5,7 @@ import 'package:bottom_nav_bar/nav_bar3.dart';
 import 'package:bottom_nav_bar/nav_bar4.dart';
 import 'package:bottom_nav_bar/nav_bar5.dart';
 import 'package:bottom_nav_bar/nav_bar6.dart';
+import 'package:bottom_nav_bar/nav_bar7.dart';
 import 'package:bottom_nav_bar/route_constants.dart';
 import 'package:get/route_manager.dart';
 
@@ -37,6 +38,10 @@ class NavRouter {
     GetPage(
       name: navBar6,
       page: () => const NavBar6(),
+    ),
+    GetPage(
+      name: navBar7,
+      page: () => const NavBar7(),
     ),
   ];
 }

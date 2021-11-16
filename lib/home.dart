@@ -1,4 +1,5 @@
 import 'package:bottom_nav_bar/nav_bar1.dart';
+import 'package:bottom_nav_bar/nav_bar7.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -60,6 +61,12 @@ class Home extends StatelessWidget {
               Get.to(() => const NavBar6());
             },
             title: const Text('Fluid Bottom Nav Bar'),
+          ),
+          ListTile(
+            onTap: () {
+              Get.to(() => const NavBar7());
+            },
+            title: const Text('Persistent Bottom Nav Bar'),
           ),
         ],
       ),
