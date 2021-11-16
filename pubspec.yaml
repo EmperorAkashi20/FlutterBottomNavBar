@@ -31,6 +31,9 @@ dependencies:
     sdk: flutter
   get:
   bottom_navy_bar:
+  ss_bottom_navbar:
+  provider:
+  dot_navigation_bar:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
