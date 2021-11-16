@@ -59,7 +59,7 @@ class Home extends StatelessWidget {
             onTap: () {
               Get.to(() => const NavBar6());
             },
-            title: const Text('Nav Bar 6'),
+            title: const Text('Fluid Bottom Nav Bar'),
           ),
         ],
       ),
