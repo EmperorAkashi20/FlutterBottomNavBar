@@ -20,7 +20,7 @@ class _NavBar1State extends State<NavBar1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nav Bar 1'),
+        title: const Text('Default Bottom Nav Bar'),
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.blueGrey,
@@ -28,7 +28,8 @@ class _NavBar1State extends State<NavBar1> {
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
         unselectedItemColor: Colors.black45,
-        type: BottomNavigationBarType.fixed,
+        type: BottomNavigationBarType
+            .fixed, //This can be changed to shifting which will then allow for movement of the icons
         iconSize: 30,
         elevation: 0,
         items: const [
